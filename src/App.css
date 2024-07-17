@@ -1,38 +1,142 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #00A9FF;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1b6eeb;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header button:hover {
+  background-color:gray ;
+}
+
+.weather-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+}
+
+.countries-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.upper-cards,
+.lower-cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.weather-card {
+  margin: 10px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.weather-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.weather-details {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.weather-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+}
+
+.h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.buton{
+
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
   color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: rgb(24, 174, 224);
 }

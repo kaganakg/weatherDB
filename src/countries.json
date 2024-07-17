@@ -1,0 +1,12 @@
+[
+    { "country": "Turkey", "capital": "Ankara" },
+    { "country": "France", "capital": "Paris" },
+    { "country": "Germany", "capital": "Berlin" },
+    { "country": "Italy", "capital": "Rome" },
+    { "country": "Spain", "capital": "Madrid" },
+    { "country": "United Kingdom", "capital": "London" },
+    { "country": "Russia", "capital": "Moscow" },
+    { "country": "China", "capital": "Beijing" },
+    { "country": "Japan", "capital": "Tokyo" },
+    { "country": "Brazil", "capital": "Brasília" }
+  ]
