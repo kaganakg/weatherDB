@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:  #00A9FF;
+  background-color: #00A9FF;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,6 @@ header {
 }
 
 header h1 {
-  color: black;
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -22,6 +21,7 @@ header form {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -43,10 +43,11 @@ header button {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 header button:hover {
-  background-color:gray ;
+  background-color: gray;
 }
 
 .weather-container {
@@ -74,11 +75,11 @@ header button:hover {
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .weather-card {
-  margin: 10px;
-  padding: 30px;
+  padding: 20px;
   background-color: white;
   border: 1px solid lightgray;
   border-radius: 8px;
@@ -102,7 +103,7 @@ header button:hover {
   background-color: white;
   border: 1px solid lightgray;
   border-radius: 8px;
-  width: 300px;
+  width: 100%;
   text-align: center;
 }
 
@@ -125,8 +126,8 @@ header button:hover {
   text-align: center;
   margin: 20px 0;
 }
-.buton{
 
+.buton {
   padding: 10px 20px;
   font-size: 18px;
   border: none;
@@ -137,6 +138,6 @@ header button:hover {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.buton:hover {
   background-color: rgb(24, 174, 224);
 }
